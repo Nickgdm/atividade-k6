@@ -16,7 +16,6 @@ export const options = {
         { duration: '1m', target: 10 },
         { duration: '30s', target: 0 },
     ],
-
     thresholds: {
         http_req_failed: ['rate<0.01'],
         http_req_duration: ['p(95)<1000'],
@@ -24,9 +23,7 @@ export const options = {
 }
 
 export default function () {
-
     const token = getToken()
-
     const response = http.get(
         `${BASE_URL}/api/reservations`,
         {
@@ -36,7 +33,6 @@ export default function () {
             },
         }
     )
-
     check(response, {
         'status é 200': (r) => r.status === 200,
         'resposta contém reservas': (r) =>
@@ -44,6 +40,5 @@ export default function () {
         'tempo de resposta menor que 1s': (r) =>
             r.timings.duration < 1000,
     })
-
     sleep(1)
 }
