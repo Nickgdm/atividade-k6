@@ -1,17 +1,13 @@
-╔══════════════════════════════════════════════════════╗
-║            TESTES DE PERFORMANCE COM K6              ║
-║                  HUB DE LEITURA                      ║
-╚══════════════════════════════════════════════════════╝
-
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                               TESTES DE PERFORMANCE COM K6 - HUB DE LEITURA                             ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
 Projeto de estudo de testes de performance da API REST do Hub de Leitura, com cenários de carga e estresse executados pelo k6.
-
-════════════════════════════════════════════════════════
 
 ## Sobre o projeto
 
 O repositório contém scripts para observar o comportamento da API sob diferentes níveis de concorrência e apoiar a análise das métricas de execução.
-
-════════════════════════════════════════════════════════
 
 ## Objetivos
 
@@ -19,15 +15,11 @@ O repositório contém scripts para observar o comportamento da API sob diferent
 - Praticar a configuração de estágios de carga.
 - Gerar relatórios e analisar métricas de execução.
 
-════════════════════════════════════════════════════════
-
 ## Tecnologias e ferramentas
 
 - k6
 - API REST do Hub de Leitura
 - Relatórios HTML e evidências de execução, quando disponíveis
-
-════════════════════════════════════════════════════════
 
 ## Pré-requisitos
 
@@ -35,8 +27,6 @@ O repositório contém scripts para observar o comportamento da API sob diferent
 - API do Hub de Leitura acessível e configurada no script.
 - Ambiente de teste sob sua responsabilidade ou com autorização explícita para executar testes de carga.
 - PowerShell para os comandos abaixo; em outros terminais, use a sintaxe equivalente para variáveis de ambiente.
-
-════════════════════════════════════════════════════════
 
 ## Cenários implementados
 
@@ -47,8 +37,6 @@ Arquivo: `tests/load-test.js`. O cenário aumenta gradualmente a concorrência a
 ### Teste de estresse
 
 Arquivo: `tests/stress-test.js`. O cenário aumenta a carga em etapas até 100 usuários virtuais e depois realiza a redução gradual da concorrência.
-
-════════════════════════════════════════════════════════
 
 ## Como executar
 
@@ -74,8 +62,6 @@ k6 run tests/stress-test.js
 
 Os testes de carga podem gerar tráfego significativo. Ajuste os estágios à capacidade do ambiente e não execute testes contra serviços de terceiros sem autorização.
 
-════════════════════════════════════════════════════════
-
 ## Estrutura do projeto
 
 ```text
@@ -87,19 +73,13 @@ atividade-k6/
 └── README.md
 ```
 
-════════════════════════════════════════════════════════
-
 ## Resultados e evidências
 
 Consulte a pasta `reports/` para verificar relatórios e evidências versionadas disponíveis. Relatórios antigos não garantem que uma nova execução terá os mesmos resultados: o desempenho varia conforme o ambiente, os dados e as condições de execução.
 
-════════════════════════════════════════════════════════
-
 ## Desafios práticos
 
 Configurar estágios de usuários virtuais, executar cenários contra a API e interpretar os resultados sem confundir uma configuração de carga com uma medição de desempenho.
-
-════════════════════════════════════════════════════════
 
 ## Boas práticas
 
@@ -108,19 +88,15 @@ Configurar estágios de usuários virtuais, executar cenários contra a API e in
 - Utilizar relatórios como apoio à análise.
 - Executar testes apenas em ambientes autorizados.
 
-════════════════════════════════════════════════════════
-
 ## Aprendizados
 
 A atividade permite praticar testes de performance com k6, configurar ramp-up e ramp-down e comparar o comportamento da API em cenários de carga e estresse. Também reforça a importância de observar métricas e registrar evidências para sustentar conclusões.
-
-════════════════════════════════════════════════════════
-
-## Considerações finais
-
-Execute testes somente em ambientes sob sua responsabilidade ou com autorização explícita. Os resultados variam conforme o ambiente, os dados e as condições de execução.
-
-════════════════════════════════════════════════════════
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║       Atividade desenvolvida durante a formação profissionalizante em Quality Assurance (QA) pela       ║
+║                     EBAC — Escola Britânica de Artes Criativas e Tecnologia                             ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
 
 ## Formação e natureza da atividade
 
