@@ -94,6 +94,7 @@ A atividade permite praticar testes de performance com k6, configurar ramp-up e 
 
 ## Considerações finais
 
+Os conhecimentos desenvolvidos podem auxiliar na identificação de possíveis gargalos e na compreensão de aspectos como tempo de resposta, taxa de requisições e ocorrência de falhas durante a execução dos testes. A interpretação dessas métricas deve considerar os cenários configurados e as condições do ambiente utilizado.
 <pre>
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║       Atividade desenvolvida durante a formação profissionalizante em Quality Assurance (QA) pela       ║
