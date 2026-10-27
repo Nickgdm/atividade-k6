@@ -91,15 +91,12 @@ Configurar estágios de usuários virtuais, executar cenários contra a API e in
 ## Aprendizados
 
 A atividade permite praticar testes de performance com k6, configurar ramp-up e ramp-down e comparar o comportamento da API em cenários de carga e estresse. Também reforça a importância de observar métricas e registrar evidências para sustentar conclusões.
+
+## Considerações finais
+
 <pre>
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║       Atividade desenvolvida durante a formação profissionalizante em Quality Assurance (QA) pela       ║
 ║                     EBAC — Escola Britânica de Artes Criativas e Tecnologia                             ║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 </pre>
-
-## Formação e natureza da atividade
-
-Este projeto foi desenvolvido como uma **atividade facultativa** no contexto dos estudos de Quality Assurance (QA), durante a formação da EBAC — Escola Britânica de Artes Criativas e Tecnologia. Seu objetivo é praticar e consolidar conhecimentos de testes de performance com k6.
-
-════════════════════════════════════════════════════════
