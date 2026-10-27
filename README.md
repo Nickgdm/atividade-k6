@@ -1,6 +1,6 @@
 <pre>
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║                               TESTES DE PERFORMANCE COM K6 - HUB DE LEITURA                             ║
+║                              TESTES DE PERFORMANCE COM K6 - HUB DE LEITURA                              ║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 </pre>
 Projeto de estudo de testes de performance da API REST do Hub de Leitura, com cenários de carga e estresse executados pelo k6.
